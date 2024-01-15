@@ -34,5 +34,3 @@ The main script file is `perform_sparse_event_vpr`. You can run it with Python a
 ```
 python ./scripts/perform_sparse_event_vpr.py --help
 ```
-
-The main 

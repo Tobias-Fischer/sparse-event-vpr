@@ -17,7 +17,7 @@ If you use this code, please refer to our [paper](https://doi.org/10.1109/LRA.20
 ```
 
 ## QCR-Event-VPR Dataset
-The associated QCR-Event-VPR dataset can be found on [Zenodo](https://zenodo.org/records/10494919). The code can also handle data from our previous [Brisbane-Event-VPR dataset](https://zenodo.org/records/4302805).
+The associated QCR-Event-VPR dataset can be found on [Zenodo](https://zenodo.org/records/10494919). The code can also handle data from our previous [Brisbane-Event-VPR dataset](https://huggingface.co/datasets/TobiasRobotics/brisbane-event-vpr/tree/main).
 
 Please download the dataset, and place the `parquet` files into the `./data/input_parquet_files` directory.
 If you want to work with the DAVIS conventional frames, please download the `zip` files, and extract them so that an image files is located in e.g. `./data/input_frames/bags_2021-08-19-08-25-42/frames/1629325542.939281225204.png`.

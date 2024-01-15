@@ -21,6 +21,7 @@ The associated QCR-Event-VPR dataset can be found on [Zenodo](https://zenodo.org
 
 Please download the dataset, and place the `parquet` files into the `./data/input_parquet_files` directory.
 If you want to work with the DAVIS conventional frames, please download the `zip` files, and extract them so that an image files is located in e.g. `./data/input_frames/bags_2021-08-19-08-25-42/frames/1629325542.939281225204.png`.
+For the Brisbane-Event-VPR dataset, place the `nmea` files into the `./data/gps_data` directory.
 
 ## Install dependencies
 We recommend using conda:

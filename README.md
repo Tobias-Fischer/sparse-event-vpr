@@ -26,11 +26,16 @@ For the Brisbane-Event-VPR dataset, place the `nmea` files into the `./data/gps_
 ## Install dependencies
 We recommend using conda:
 ```bash
-conda create -n sparse-event-vpr pytorch codetiming tqdm pandas numpy scipy matplotlib seaborn numba pynmea2 opencv python-xxhash pillow scikit-image pypng pip
+conda create -n sparse-event-vpr pip pytorch codetiming tqdm pandas numpy scipy matplotlib seaborn numba pynmea2 opencv python-xxhash pillow scikit-image pypng h5py importrosbag pbr pyarrow fastparquet
 pip install git+https://github.com/Tobias-Fischer/tonic.git --no-deps
 ```
 
 ## Usage
+First, install the package via
+```
+pip install -e .  # you need to run this command inside the `sparse-event-vpr` directory
+```
+
 The main script file is `perform_sparse_event_vpr`. You can run it with Python and see all options that are exposed:
 ```
 python ./scripts/perform_sparse_event_vpr.py --help

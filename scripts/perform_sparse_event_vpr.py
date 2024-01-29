@@ -67,7 +67,7 @@ if __name__ == "__main__":
     parser.add_argument("-lf", "--event_frame_length_sparse_pixels", type=none_or_int, default=1e6, help="How long (in μs) should the event frame be when using sparse pixels? (default: 1000000.0)")
     parser.add_argument("-ec", "--event_frame_count_all_pixels", type=none_or_int, default=None, help="How many events should an event frame have?")
     parser.add_argument("-mf", "--multiplier_factor", type=none_or_int, default=None, help="How many events should be in a frame when using sparse pixels? Will be multiplied by the number of target pixels (good number: 3)")
-    parser.add_argument("-gtp", "--gt_tolerance_percentage", type=int, default=2, help="What is the GT tolerance (in %); QCR-Event-VPR dataset? (default: 2)")
+    parser.add_argument("-gtp", "--gt_tolerance_percentage", type=int, default=2, help="What is the GT tolerance (in percent); QCR-Event-VPR dataset? (default: 2)")
     parser.add_argument("-gtm", "--gt_tolerance_meters", type=int, default=70, help="What is the GT tolerance (in meters); Brisbane-Event-VPR dataset? (default: 70)")
     parser.add_argument("-us", "--use_saliency", type=str_to_bool, nargs="?", const=True, default=True, help="Use mean/variance in event pixels to select pixels")
     parser.add_argument("-uf", "--use_conventional_frames", type=str_to_bool, nargs="?", const=True, default=False, help="Use DAVIS APS frames for comparison")

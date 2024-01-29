@@ -21,7 +21,7 @@ setup(
         "matplotlib",
         "plotly",
         "numba",
-        "tonic",  # pip install git+https://github.com/Tobias-Fischer/tonic.git --no-deps
+        "git+https://github.com/Tobias-Fischer/tonic.git",
         "pynmea2",
         "seaborn",
         "opencv-python",

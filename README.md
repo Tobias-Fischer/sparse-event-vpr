@@ -26,7 +26,7 @@ For the Brisbane-Event-VPR dataset, place the `nmea` files into the `./data/gps_
 ## Install dependencies
 We recommend using `conda` (in particular, `mamba`, which can be installed via [Miniforge3](https://github.com/conda-forge/miniforge#miniforge3):
 ```bash
-mamba create -n sparse-event-vpr pip pytorch codetiming tqdm pandas numpy scipy matplotlib seaborn numba pynmea2 opencv python-xxhash pillow scikit-image pypng h5py importrosbag pbr pyarrow fastparquet
+mamba create -n sparse-event-vpr pip pytorch codetiming tqdm pandas numpy scipy matplotlib seaborn numba pynmea2 opencv pypng h5py importrosbag pbr pyarrow fastparquet
 pip install git+https://github.com/Tobias-Fischer/tonic.git --no-deps
 ```
 

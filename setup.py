@@ -12,7 +12,7 @@ setup(
         "console_scripts": ["sparse-event-vpr=sparse_event_vpr:main"],
     },
     install_requires=[
-        "torch",
+        "pytorch",
         "codetiming",
         "tqdm",
         "pandas",
@@ -25,9 +25,6 @@ setup(
         "pynmea2",
         "seaborn",
         "opencv-python",
-        "python-xxhash",
-        "pillow",
-        "scikit-image",
         "pypng",
     ],
 )

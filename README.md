@@ -41,3 +41,5 @@ The main script file is `perform_sparse_event_vpr`. You can run it with Python a
 ```
 python ./scripts/perform_sparse_event_vpr.py --help
 ```
+
+Furthermore, there is a standalone [Jupyter notebook available](./OpenNeuromorphicTalk.ipynb) that guides you through some of the key concepts of the paper.
